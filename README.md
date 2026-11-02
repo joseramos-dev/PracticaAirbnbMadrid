@@ -16,24 +16,6 @@ Práctica del módulo 1 de *Aprendizaje Automático I* (Máster). Se construye u
 4. **Afinación de hiperparámetros** de KNN y del árbol con `GridSearchCV`.
 5. **Evaluación en test** con accuracy, balanced accuracy y matriz de confusión.
 
-## Resultados (test, 2665 anuncios)
-
-| Modelo | Accuracy | Balanced accuracy |
-|---|---|---|
-| Naive Bayes | 0.086 | 0.373 |
-| KNN (K = 13) | 0.883 | 0.626 |
-| Árbol de decisión | **0.892** | **0.672** |
-
-El árbol de decisión es el mejor modelo. Naive Bayes no se adapta a estos datos. Las clases están muy desbalanceadas, y *Shared room* (1,4 %) es la más difícil de predecir.
-
-## Contenido
-
-- `Practica_1.ipynb`: notebook con todo el desarrollo y las conclusiones.
-- `airbnb.csv`: dataset.
-- `Actividad 1.pdf`: enunciado.
-- `mapa_room_type.png`: mapa de anuncios por tipo de habitación.
-- `requirements.txt`: dependencias.
-
 ## Ejecución
 
 ```powershell
@@ -43,5 +25,3 @@ pip install -r requirements.txt
 ```
 
 Después abre `Practica_1.ipynb` con VS Code o Jupyter.
-
-Autor: José Manuel Ramos Chica
